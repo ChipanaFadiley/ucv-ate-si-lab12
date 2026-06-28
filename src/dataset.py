@@ -1,0 +1,12 @@
+from typing import TypeAlias
+
+TrainingExample: TypeAlias = tuple[list[float], int]
+
+training_data: list[TrainingExample] = [
+    ([8, 1], 1),
+    ([7, 1], 1),
+    ([6, 1], 1),
+    ([3, 0], 0),
+    ([2, 0], 0),
+    ([1, 0], 0),
+]
